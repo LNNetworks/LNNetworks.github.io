@@ -1,4 +1,124 @@
+/* Fonts */
+@font-face {font-family: "Helvetica Neue LT Std"; src: url("fonts/HelveticaNeueLTStd-Th.otf") format("truetype"); font-weight: 100;}
+@font-face {font-family: "Helvetica Neue LT Std"; src: url("fonts/HelveticaNeueLTStd-Md.otf") format("truetype"); font-weight: 400;}
+/* All Viewports */
 html,
 body {
+	width: 100%;
 	height: 100%;
+	font-family: "Helvetica Neue LT Std";
+	color: #fff;
+	text-align: center;
+	background-color: #c5c915;
+}
+#backgr {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: url(backgr.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	filter: grayscale(0%) brightness(95%);
+}
+#wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+/* Navigation */
+.navbar {
+	max-width: 650px;
+	margin: auto;
+	min-width: 468px;
+}
+.navbar .navbar-header {
+	margin: auto;
+	width: 100%;
+}
+.navbar-default .navbar-brand {
+	color: #0000004d;
+	font-size: 34px;
+	text-shadow: 0px 1px #0000001a;
+	margin: auto;
+	padding-bottom: 0px;
+}
+.navbar-default .navbar-collapse {
+	display: block;
+}
+.navbar-default .navbar-collapse {
+	flex-direction: row;
+	max-width: 385px;
+	margin: auto;
+	display: block;
+	margin-bottom: 1rem;
+}
+.navbar-left{
+	display: none;
+}
+.navbar-default .navbar-nav li a {
+	color: #0006;
+	font-weight: 100;
+	text-decoration: none;
+}
+.navbar-nav {
+	flex-direction: row;
+	max-width: 385px;
+	margin: auto;
+}
+.navbar-default .navbar-nav li {
+	margin: auto;
+}
+.btn {
+	padding: 0;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+	color: #0000004d;
+}
+.navbar-default .navbar-brand span{
+	color: #fff;
+	font-weight: 100;
+}
+.navbar-default .navbar-nav li a:focus,
+.navbar-default .navbar-nav li a:hover {
+	color: #fff;
+}
+#content-wrapper {
+	max-width: 650px;
+	margin: auto;
+	box-shadow: 0px 10px 55px -30px #000;
+}
+header{
+	max-width: 900px;
+	margin: auto;
+	position: relative;
+	z-index: 1;
+	background: #0F4560 url(backgr.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+	margin-bottom: 0px;
+}
+.jumbotron {
+	background-color: transparent;
+	padding: 7rem 1rem;
+	color: #0006;
+	min-width: 468px;
+}
+#eatsleepraverepeat {
+	display: flex;
+	max-width: 405px;
+	font-size: 2rem;
+	margin: auto;
+}
+p {
+	font-weight: 100;
+	font-size: 1.5rem;
+}
+@media (min-width: 900px) {
+.navbar {
+	padding: .5rem 0rem;
 }
