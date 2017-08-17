@@ -29,38 +29,29 @@ body {
 }
 /* Navigation */
 .navbar {
-	max-width: 650px;
+	max-width: 900px;
 	margin: auto;
-	min-width: 468px;
 }
+/*
+@media (max-width: 900px) {
+	*/
 .navbar .navbar-header {
 	margin: auto;
 	width: 100%;
 }
-.navbar-default .navbar-brand {
-	color: #0000004d;
-	font-size: 34px;
-	text-shadow: 0px 1px #0000001a;
-	margin: auto;
-	padding-bottom: 0px;
-}
-.navbar-default .navbar-collapse {
-	display: block;
+.navbar .container-fluid {
+	padding: 0;
 }
 .navbar-default .navbar-collapse {
 	flex-direction: row;
-	max-width: 385px;
+	max-width: 300px;
 	margin: auto;
 	display: block;
 	margin-bottom: 1rem;
 }
+
 .navbar-left{
 	display: none;
-}
-.navbar-default .navbar-nav li a {
-	color: #0006;
-	font-weight: 100;
-	text-decoration: none;
 }
 .navbar-nav {
 	flex-direction: row;
@@ -70,23 +61,58 @@ body {
 .navbar-default .navbar-nav li {
 	margin: auto;
 }
+/*
+}
+*/
+.navbar-default .navbar-brand {
+	color: #0000004d;
+	font-size: 34px;
+	text-shadow: 0px 1px #0000001a;
+	margin: auto;
+}
+.navbar-default .navbar-collapse {
+	display: block;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #0006;
+	font-weight: 100;
+	text-decoration: none;
+}
+
 .btn {
 	padding: 0;
-}
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
-	color: #0000004d;
 }
 .navbar-default .navbar-brand span{
 	color: #fff;
 	font-weight: 100;
 }
+.navbar-default .navbar-nav .follow {
+	color: #0006;
+	text-decoration: underline;
+	padding: 10px 0px 5px 5px;
+}
+@media (min-width: 768px) {
+.navbar-default .navbar-nav .follow {
+	font-size: 16px;
+	padding: 9px 10px 0px 5px;
+}
+}
 .navbar-default .navbar-nav li a:focus,
 .navbar-default .navbar-nav li a:hover {
 	color: #fff;
 }
+.navbar-default .navbar-left li a {
+	font-size: 16px;
+	padding: 5px 15px;
+}
+@media (min-width: 768px) {
+.navbar-default .navbar-left li a {
+	padding: 10px 5px
+}
+}
 #content-wrapper {
-	max-width: 650px;
+	max-width: 500px;
 	margin: auto;
 	box-shadow: 0px 10px 55px -30px #000;
 }
@@ -102,23 +128,44 @@ header{
 		-o-background-size: cover;
 	margin-bottom: 0px;
 }
+header #content{
+	background-color: #0000004d;
+	min-height: 17px;
+}
 .jumbotron {
 	background-color: transparent;
-	padding: 7rem 1rem;
-	color: #0006;
-	min-width: 468px;
+	padding: 6.5rem 1rem 6rem 1rem;
+
 }
+
+
+
+
+
 #eatsleepraverepeat {
-	display: flex;
-	max-width: 405px;
 	font-size: 2rem;
+	width: 402.6px;
 	margin: auto;
+	display: flex;
+}
+
+
+
+@media (max-width: 500px) {
+#eatsleepraverepeat {	
+ font-size: 1.1rem;
+ width: 221.4px;
+}
 }
 p {
 	font-weight: 100;
-	font-size: 1.5rem;
+	font-size: 2.4rem;
 }
-@media (min-width: 900px) {
-.navbar {
-	padding: .5rem 0rem;
+@media (max-width: 500px) {
+p {	
+ font-size: 1.5rem
+}
+}
+.align {
+	
 }
