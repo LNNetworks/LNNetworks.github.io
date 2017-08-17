@@ -36,7 +36,9 @@ body {
 padding: .5rem 0rem;
 	}
 }
+/*
 @media (max-width: 900px) {
+	*/
 .navbar .navbar-header {
 	margin: auto;
 	width: 100%;
@@ -63,8 +65,9 @@ padding: .5rem 0rem;
 .navbar-default .navbar-nav li {
 	margin: auto;
 }
+/*
 }
-
+*/
 
 .navbar-default .navbar-brand {
 	color: #0000004d;

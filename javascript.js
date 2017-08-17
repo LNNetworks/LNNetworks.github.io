@@ -16,7 +16,7 @@
     
 })();
 */
-
+$(document).ready(function(){
 $('#1, #2, #3, #4').hide();
 
 $('#1').fadeIn(850, function () {
@@ -27,4 +27,5 @@ $('#1').fadeIn(850, function () {
             });
         });
     });
+});
 });
