@@ -9,7 +9,6 @@ body {
 	font-family: "Helvetica Neue LT Std";
 	color: #fff;
 	text-align: center;
-	background-color: #c5c915;
 }
 #backgr {
 	width: 100%;
@@ -32,9 +31,12 @@ body {
 	max-width: 900px;
 	margin: auto;
 }
-/*
+@media (min-width: 900px) {
+	.navbar {
+padding: .5rem 0rem;
+	}
+}
 @media (max-width: 900px) {
-	*/
 .navbar .navbar-header {
 	margin: auto;
 	width: 100%;
@@ -61,9 +63,9 @@ body {
 .navbar-default .navbar-nav li {
 	margin: auto;
 }
-/*
 }
-*/
+
+
 .navbar-default .navbar-brand {
 	color: #0000004d;
 	font-size: 34px;
@@ -112,12 +114,10 @@ body {
 }
 }
 #content-wrapper {
-	max-width: 500px;
 	margin: auto;
 	box-shadow: 0px 10px 55px -30px #000;
 }
 header{
-	max-width: 900px;
 	margin: auto;
 	position: relative;
 	z-index: 1;
@@ -128,44 +128,81 @@ header{
 		-o-background-size: cover;
 	margin-bottom: 0px;
 }
-header #content{
-	background-color: #0000004d;
-	min-height: 17px;
-}
 .jumbotron {
 	background-color: transparent;
 	padding: 6.5rem 1rem 6rem 1rem;
-
+	max-width: 900px;
+	margin: auto;
+	border-radius: 0;
+}
+.jumbotron .container {
+padding: 0;
+}
+h1 {
+	font-weight: 100;
+	text-shadow: 1px 1px #0000001a;
+	font-size: 2rem;
 }
 
 
 
 
 
-#eatsleepraverepeat {
+
+#eatsleepraverepeatwrap {
 	font-size: 2rem;
-	width: 402.6px;
 	margin: auto;
 	display: flex;
+	color: #0006;
+	text-shadow: 1px 1px #0000001a;
+	max-width: 402.567px;
+}
+
+#eatsleepraverepeat1 {
+display: inline-flex;
+}
+#eatsleepraverepeat2 {
+display: inline-flex;
+}
+.align1 {
+
+}
+.align2 {
+
+
+}
+.align3 {
+
+
+}
+.align4 {
+
+
 }
 
 
 
-@media (max-width: 500px) {
-#eatsleepraverepeat {	
- font-size: 1.1rem;
- width: 221.4px;
+@media (max-width: 435px) {
+	#eatsleepraverepeatwrap {
+
+
+	max-width: 211.65px;
+	}
+	#eatsleepraverepeat1 {
+display: flex;
 }
+	#eatsleepraverepeat2 {
+margin-left: -212px;
+margin-top: 28px;
+font-size: 2.22rem;
 }
-p {
-	font-weight: 100;
-	font-size: 2.4rem;
+h1 {
+
+	font-size: 1.85rem;
 }
-@media (max-width: 500px) {
-p {	
- font-size: 1.5rem
+.jumbotron {
+
+	padding: 6rem 1rem 6rem 1rem;
+
 }
-}
-.align {
-	
 }
