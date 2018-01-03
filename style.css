@@ -55,20 +55,29 @@ nav {
 }
 .navbar-brand-sub {
 	font-size: .9rem;
+	margin-left: 1px;
 }
 nav .btn-success {
 	box-shadow: 0 0 0 .2rem rgba(40,167,69,.5);
 }
-
+nav .form-inline {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
 
 /* --- Navbar --- */
 
 #backgr {
-	background: url(backgr.jpg);
-    background-repeat: no-repeat;
+	background: url(backgr.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-size: cover;
+	/*
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	*/
 }
 #backgr-green {
 	background-color: #28a745;
