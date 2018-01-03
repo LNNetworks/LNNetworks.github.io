@@ -73,11 +73,6 @@ nav .form-inline {
 	-moz-background-size: cover;
 	-o-background-size: cover;
     background-size: cover;
-	/*
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	*/
 }
 #backgr-green {
 	background-color: #28a745;
@@ -179,6 +174,9 @@ footer span {
 @media (max-width: 992px) {
 nav .btn {
 	width: 100%;
+}
+#backgr {
+	background-attachment: scroll;
 }
 }
 @media (min-width: 992px) {
