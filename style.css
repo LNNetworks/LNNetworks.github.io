@@ -170,6 +170,9 @@ footer span {
 .spacer {
 	margin-bottom: 1rem;
 }
+.notvisible {
+	display: none;
+}
 }
 @media (max-width: 992px) {
 nav .btn {
