@@ -54,7 +54,7 @@ nav {
 	color: #00000080 !important;
 }
 .navbar-brand-sub {
-	font-size: 1rem;
+	font-size: .9rem;
 }
 nav .btn-success {
 	box-shadow: 0 0 0 .2rem rgba(40,167,69,.5);
