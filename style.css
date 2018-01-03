@@ -102,7 +102,7 @@ nav .form-inline {
 .jumbotron .btn-lg {
 	padding: 1rem 1.5rem;
 }
-#dienstleistungen p {
+#dienstleistungen .right{
 	padding-left: 43px;
 }
 #dienstleistungen hr {
