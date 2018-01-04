@@ -186,4 +186,7 @@ nav .btn {
 .form-inline {
 	margin-left: 1rem;
 }
+#map{
+	height: 500px;
+}
 }
