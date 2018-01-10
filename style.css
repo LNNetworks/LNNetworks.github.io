@@ -23,6 +23,10 @@ h2 {
 	font-weight: 700;
 }
 h4 {
+	font-size: 1.125rem;
+}
+h5 {
+	font-size: 1.5rem;
 	margin-top: 1rem;
 }
 p {
@@ -92,7 +96,7 @@ nav .form-inline {
 	-o-background-size: cover;
     background-size: cover;
 }
-#backgr-green {
+#backgr-sub {
 	background-color: #28a745;
 	box-shadow: 0px 0px 10px -5px #000 inset;
 	color: #fff;
